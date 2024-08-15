@@ -7,8 +7,8 @@ public class MapGenerator : MonoBehaviour
     // Mapbox AbstractMap Component Reference 
     public AbstractMap map;
 
-    // coordinates of the map center (latitude, longitude)
-    public Vector2d coordinates = new Vector2d(40.7128, -74.0060); // Exemplo: Nova York
+    // coordinates of the map center (lat, long)
+    public Vector2d coordinates = new Vector2d(40.7128, -74.0060); // Example: Nova York
 
     // zoom level
     public float zoom = 16f;
